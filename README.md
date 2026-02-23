@@ -135,4 +135,7 @@ Rotation re-encrypts only DEKs, not file data.
 - Backup `keys/` directory
 - Use HTTPS in production
 
+## License
+
+MIT
 
