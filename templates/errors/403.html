@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}403 Forbidden - SecureVault{% endblock %}
+
+{% block content %}
+<div class="text-center py-5">
+    <h1 class="display-4 text-danger"><i class="bi bi-shield-x"></i> 403 Forbidden</h1>
+    <p class="lead">Access denied. You do not have permission to download this file.</p>
+    <p class="text-muted">Zero-trust policy: Only file owners can access their files.</p>
+    <a href="{{ url_for('list_files') }}" class="btn btn-primary">Back to Files</a>
+</div>
+{% endblock %}
